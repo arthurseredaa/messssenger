@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.welcomeText {
+  margin: 5px 0px 0px 10px;
+  font-weight: 300;
+}

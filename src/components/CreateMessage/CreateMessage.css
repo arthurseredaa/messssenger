@@ -1,0 +1,21 @@
+.createMessage {
+  width: 100%;
+  background-color: white;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 5px;
+  z-index: 10;
+}
+.createMessage__input {
+  width: 93%;
+}
+.createMessage__button {
+  width: 5%;
+  height: 80%;
+  background-color: #7885cb;
+  cursor: pointer;
+}

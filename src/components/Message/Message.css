@@ -1,0 +1,37 @@
+.messageWrapper {
+  margin: 10px 20px;
+  min-width: 150px;
+  width: auto;
+  /* width: 40%; */
+  padding: 10px 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  height: 80px;
+  padding-right: 20px;
+}
+.username {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.messageText {
+  margin: 5px 0px;
+  font-size: 20px;
+}
+.sendTime {
+  position: absolute;
+  right: 10px;
+  color: black;
+  top: 5px;
+  font-size: 0.8em;
+}
+
+/* MEDIA 
+***********/
+@media (max-width: 950px) {
+  .messageWrapper {
+    width: 70%;
+  }
+}
