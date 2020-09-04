@@ -1,1 +1,1 @@
-[Link on this project](https://messssenger.web.app/)
+[Project link](https://messssenger.web.app/)
